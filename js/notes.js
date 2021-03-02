@@ -76,8 +76,8 @@ $(document).ready(function () {
 		navigator.clipboard.writeText($('#note').val()).then(function () {
 			let snackbar = document.getElementById('snackbar');
 			snackbar.className = 'show';
-			setTimeout(function() { 
-				snackbar.className = snackbar.className.replace('show', ''); 
+			setTimeout(function() {
+				snackbar.className = snackbar.className.replace('show', '');
 			}, 2000);
 		}, function () {
 			alert('Failure to copy. Check permissions for clipboard')
@@ -104,7 +104,7 @@ $(document).ready(function () {
 		localStorage.setItem('mode', 'light');
 	}
 
-	// This changes the application's theme when 
+	// This changes the application's theme when
 	// user toggles device's theme preference
 	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({ matches }) => {
 		if (matches) {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
   padding-top: 50px;
 }
@@ -12,7 +14,7 @@ textarea:hover,textarea {
   outline:0px !important;
   -webkit-appearance:none;
   resize: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-default {
@@ -172,7 +174,7 @@ textarea {
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: inline-block;
   overflow: hidden;
   margin-bottom: 5px;
